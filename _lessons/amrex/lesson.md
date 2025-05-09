@@ -5,7 +5,7 @@ title: "Meshing and Discretization with AMReX"
 teaser: "A Block Structured Adaptive Mesh Refinement Framework"
 subheader: "Not your grandmother's AMR...!"
 permalink: "lessons/amrex/"
-years: [2024]
+years: [2025]
 use_math: true
 lesson: true
 header:
@@ -46,18 +46,18 @@ ssh -A elvis@polaris.alcf.anl.gov
 2. In your home folder, create a local copy of the track 5 numerical examples:
 ```shell
 cd ~
-rsync -a /eagle/ATPESC2024/EXAMPLES/track-5-numerical .
+rsync -a /eagle/ATPESC2025/EXAMPLES/track-5-numerical .
 ```
 
-3. Request an interactive session using the ATPESC2024 reservation:
+3. Request an interactive session using the ATPESC2025 reservation:
 ```shell
-qsub -I -l select=1 -l filesystems=home:eagle -l walltime=1:00:00 -q ATPESC -A ATPESC2024
+qsub -I -l select=1 -l filesystems=home:eagle -l walltime=1:00:00 -q ATPESC -A ATPESC2025
 ```
 
 5. Load the modules that setup the software environment for this track:
 ```shell
 module use /soft/modulefiles
-module use /eagle/ATPESC2024/usr/modulefiles
+module use /eagle/ATPESC2025/usr/modulefiles
 module load track-5-numerical
 ```
 
@@ -86,7 +86,7 @@ Vis can be finicky on Cooley because there are certain details that we need to s
 Recall, to get an interactive session, do, e.g.:
 
 ```shell
-qsub -I -n 1 -t 300 -A ATPESC2024 -q training
+qsub -I -n 1 -t 300 -A ATPESC2025 -q training
 ```
 
 - Then in the interactive session, edit your `~/.soft.cooley` file to contain only the following and then use the `resoft` command:

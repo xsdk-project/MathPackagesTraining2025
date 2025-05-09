@@ -4,7 +4,7 @@ A gh-pages site to host SWC style training materials for various HPC math packag
 
 # Website
 
-The public site for this repo is https://xsdk-project.github.io/MathPackagesTraining2024/.
+The public site for this repo is https://xsdk-project.github.io/MathPackagesTraining2025/.
 After pushing to the Repo, changes should be visible within minutes.
 
 ## To Render Locally
@@ -18,14 +18,14 @@ bundle install
 
 (See [this stackoverflow question](https://stackoverflow.com/questions/40385493/how-to-run-bundle-install-as-normal-user) if `bundle` complains about write permissions.)
 
-Clone or move to the MathPackagesTraining2024 directory and start the Jekyll server:
+Clone or move to the MathPackagesTraining2025 directory and start the Jekyll server:
 
 ```
-git clone https://github.com/xsdk-project/MathPackagesTraining2024.git
+git clone https://github.com/xsdk-project/MathPackagesTraining2025.git
 bundle exec jekyll serve
 ```
 
-Then point your web broswer at http://localhost:4000/MathPackagesTraining2024/
+Then point your web broswer at http://localhost:4000/MathPackagesTraining2025/
 
 
 # Polaris
@@ -39,8 +39,8 @@ ATPESC_Instructors project should request access to those ASAP**.
 
 You need to be a part of two groups on polaris:
 
-- `ATPESC_Instructors`: to submit jobs on the account and for write access the installation directory for libraries, `/eagle/ATPESC2024/usr/MathPackages`
-- `ATPESC2024`: for write access to the examples directory `/eagle/ATPESC2024/EXAMPLES/track-5-numerical`
+- `ATPESC_Instructors`: to submit jobs on the account and for write access the installation directory for libraries, `/eagle/ATPESC2025/usr/MathPackages`
+- `ATPESC2025`: for write access to the examples directory `/eagle/ATPESC2025/EXAMPLES/track-5-numerical`
 
 ## Quick Start
 
@@ -87,12 +87,12 @@ With cmake - the likely option is: `-DCMAKE_CUDA_ARCHITECTURES=80`
 
 ## Install software
 
-Install software at `/eagle/projects/ATPESC2024/usr/MathPackages` - for ex: `/eagle/projects/ATPESC2024/usr/MathPackages/petsc-3.19.4`
+Install software at `/eagle/projects/ATPESC2025/usr/MathPackages` - for ex: `/eagle/projects/ATPESC2025/usr/MathPackages/petsc-3.19.4`
 
-And then copy over needed tutorial binaries, datafiles etc. over to `/eagle/projects/ATPESC2024/EXAMPLES/track-5-numerical` into appropriate folders - for ex: (from last year)
+And then copy over needed tutorial binaries, datafiles etc. over to `/eagle/projects/ATPESC2025/EXAMPLES/track-5-numerical` into appropriate folders - for ex: (from last year)
 
 ```
-balay@thetagpu06:~$ ls -l /eagle/projects/ATPESC2024/EXAMPLES/track-5-numerical
+balay@thetagpu06:~$ ls -l /eagle/projects/ATPESC2025/EXAMPLES/track-5-numerical
 total 40
 drwxrwsr-x 2 balay ATPESC_Instructors 4096 Aug  2 12:13 amrex
 drwxrwsr-x 2 balay ATPESC_Instructors 4096 Aug  2 12:13 hand_coded_heat
@@ -112,3 +112,4 @@ It is recommended to use a compute node when building and installing, because pa
 ## Internet proxy
 
 If you need internet access from a node (for instance, to download packages) add the proxy commands to your environment given [here](https://docs.alcf.anl.gov/polaris/getting-started/?h=proxy).
+

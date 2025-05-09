@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-title: "ATPESC 2024 Packages"
+title: "ATPESC 2025 Packages"
 not_active: true
 package: false
 header:

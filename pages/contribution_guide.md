@@ -67,7 +67,7 @@ header:
    with whatever you need. As you add pictures, be sure to add them to the same
    directory as the `lesson.md` file you are creating. Examine the lesson template
    to see how to link to them from your `lesson.md` file.
-1. Edit `_data/navigation.yml` and add a line for your lesson in the `ATPESC 2024 Lessons`
+1. Edit `_data/navigation.yml` and add a line for your lesson in the `ATPESC 2025 Lessons`
    section of the YAML data for your lesson. If you named things as above...
 ```
 - title: "My New Lesson"
@@ -77,10 +77,10 @@ header:
    web page, equation, etc. you can simply go to the GitHub repo for the site, and
    find the associated page there. For example, to view the raw markup for the
    [Hand Coded Heat Lesson](../lessons/hand_coded_heat/), you would go
-   [here](https://github.com/xsdk-project/MathPackagesTraining2024/blob/gh-pages/_lessons/hand_coded_heat/lesson.md)
+   [here](https://github.com/xsdk-project/MathPackagesTraining2025/blob/gh-pages/_lessons/hand_coded_heat/lesson.md)
    and then hit the `Raw` button to view the
-   [raw file contents](https://raw.githubusercontent.com/xsdk-project/MathPackagesTraining2024/gh-pages/_lessons/hand_coded_heat/lesson.md).
-   To go to the top of the GitHub repo for this site, go [here](https://github.com/xsdk-project/MathPackagesTraining2024)
+   [raw file contents](https://raw.githubusercontent.com/xsdk-project/MathPackagesTraining2025/gh-pages/_lessons/hand_coded_heat/lesson.md).
+   To go to the top of the GitHub repo for this site, go [here](https://github.com/xsdk-project/MathPackagesTraining2025)
 1. It is not necessary to submit _pull requests_ to update your lessons. You
    may simply push your changes to the `gh-pages` branch and your changes
    go live automatically. If your push fails due to changes on the remote (GitHub),
@@ -88,9 +88,9 @@ header:
 
 ```
 miller86% git push
-To github.com:xsdk-project/MathPackagesTraining2024.git
+To github.com:xsdk-project/MathPackagesTraining2025.git
  ! [rejected]        gh-pages -> gh-pages (fetch first)
-error: failed to push some refs to 'git@github.com:xsdk-project/MathPackagesTraining2024.git'
+error: failed to push some refs to 'git@github.com:xsdk-project/MathPackagesTraining2025.git'
 ```
 Oops, the push failed due to changes on the remote. So, do a `git pull` first
 ```
@@ -99,7 +99,7 @@ remote: Counting objects: 24, done.
 remote: Compressing objects: 100% (11/11), done.
 remote: Total 24 (delta 12), reused 24 (delta 12), pack-reused 0
 Unpacking objects: 100% (24/24), done.
-From github.com:xsdk-project/MathPackagesTraining2024
+From github.com:xsdk-project/MathPackagesTraining2025
    1c958bb..6ad3e3f  gh-pages   -> origin/gh-pages
 Auto-merging _data/navigation.yml
 ```
@@ -112,7 +112,7 @@ Compressing objects: 100% (14/14), done.
 Writing objects: 100% (14/14), 307.40 KiB | 21.96 MiB/s, done.
 Total 14 (delta 9), reused 0 (delta 0)
 remote: Resolving deltas: 100% (9/9), completed with 5 local objects.
-To github.com:xsdk-project/MathPackagesTraining2024.git
+To github.com:xsdk-project/MathPackagesTraining2025.git
    6ad3e3f..17ee363  gh-pages -> gh-pages
 ```
 

@@ -47,7 +47,7 @@ rooms for the presentations and ensure everyone has a seat.
 {% endfor %}
 {% endcomment %}
 
-### [ATPESC 2024 Main Agenda](https://extremecomputingtraining.anl.gov/agenda-2024/)
+### [ATPESC 2025 Main Agenda](https://extremecomputingtraining.anl.gov/agenda-2025/)
 
 {% include link-shortcuts %}
 

@@ -1,6 +1,6 @@
 ---
 layout: package
-subheadline: ATPESC 2024 Package Overviews
+subheadline: ATPESC 2025 Package Overviews
 title: "SUNDIALS"
 teaser: "Adaptive time integrators for ODEs and DAEs and efficient nonlinear solvers"
 permalink: "packages/sundials/"

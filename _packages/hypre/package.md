@@ -1,6 +1,6 @@
 ---
 layout: package
-subheadline: ATPESC 2024 Package Overviews
+subheadline: ATPESC 2025 Package Overviews
 title: "hypre"
 teaser: "Highly scalable multilevel solvers and preconditioners"
 permalink: "packages/hypre/"

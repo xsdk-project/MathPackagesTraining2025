@@ -28,15 +28,15 @@ rsync -a {{site.handson_install_root}}/{{site.handson_root}} .
 this command to update your local copy if we discover changes are necessary.
 1. Schedule a Polaris compute node for compiles and runs
 ```
-qsub -I -l select=1 -l filesystems=home:eagle -l walltime=1:00:00 -q ATPESC -A ATPESC2024
+qsub -I -l select=1 -l filesystems=home:eagle -l walltime=1:00:00 -q ATPESC -A ATPESC2025
 ```
   * **Note 1:** Polaris job scheduling policies [document](https://docs.alcf.anl.gov/polaris/running-jobs/)
-  * **Note 2:** Polaris ATPESC Instructions at [document](https://extremecomputingtraining.anl.gov/wp-content/uploads/sites/96/2024/07/ATPESC-2024-Track-0-Talk-2-Kwack-Quick-Start.pdf)
+  * **Note 2:** Polaris ATPESC Instructions at <!-- TODO: update link [document](https://extremecomputingtraining.anl.gov/wp-content/uploads/sites/96/2025/07/ATPESC-2025-Track-0-Talk-2-Kwack-Quick-Start.pdf) -->
   * **Note 3:** Polaris ATPESC Reservation info at [document](https://anl.app.box.com/notes/1598442469896?s=85yff37myqlrh3dkvl77l8zhqmsizy5j)
 1. Load the default modules for the lessons
 ```
 module use /soft/modulefiles
-module use /eagle/ATPESC2024/usr/modulefiles
+module use /eagle/ATPESC2025/usr/modulefiles
 module load track-5-numerical
 ```
   * **Note 1:** Proxy settings for network access from compute nodes is at [document](https://docs.alcf.anl.gov/polaris/getting-started/?h=proxy#proxy)

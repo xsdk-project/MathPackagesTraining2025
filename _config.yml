@@ -8,7 +8,7 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'ATPESC 2024 Math Packages Training'
+title: 'ATPESC 2025 Math Packages Training'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: 'So my code will see the future'
@@ -26,12 +26,12 @@ author: markcmiller86
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'https://xsdk-project.github.io'
-baseurl: '/MathPackagesTraining2024'
+baseurl: '/MathPackagesTraining2025'
 
 #
 # Paths on ANL file systems where software is installed
 #
-handson_install_root: '/eagle/ATPESC2024/EXAMPLES'
+handson_install_root: '/eagle/ATPESC2025/EXAMPLES'
 handson_root: 'track-5-numerical'
 
 #
@@ -48,7 +48,7 @@ handson_hide_qanda: false
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/xsdk-project/MathPackagesTraining2024/edit/gh-pages
+improve_content: https://github.com/xsdk-project/MathPackagesTraining2025/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -56,7 +56,7 @@ improve_content: https://github.com/xsdk-project/MathPackagesTraining2024/edit/g
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://xsdk-project.github.io/MathPackagesTraining2024/images/'
+urlimg: 'https://xsdk-project.github.io/MathPackagesTraining2025/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
