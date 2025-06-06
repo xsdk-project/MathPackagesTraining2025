@@ -24,7 +24,7 @@
   speakers:
     - "Mark Shephard"
     - "Cameron Smith"
-    - "Vladimir Tomov"
+    - "Mark Stowell"
   vname: "Breakout-room"
   has_synopsis: true
   id: 4
@@ -67,7 +67,7 @@
 
 - title: "Nonlinear Solvers<br>(with PETSc)"
   speakers:
-    - "Toby Isaac"
+    - "Richard Tran Mills"
   vname: "Main-room"
   has_synopsis: true
   id: 11
@@ -91,7 +91,7 @@
 
 - title: "Optimization<br>(with TAO)"
   speakers:
-    - "Todd Munson"
+    - "Toby Isaac"
   vname: "Main-room"
   has_synopsis: true
   id: 15
@@ -104,38 +104,25 @@
   has_synopsis: true
   id: 16
 
-- title: "Wrap-Up"
-  speakers:
-    - "Toby Isaac"
-  start: "Tue Aug 6 4:30 PM"
-  length: 15
-  vname: "Main-room"
-  has_synopsis: false
-  id: 17
-
 - title: "Extreme-Scale Numerical Algorithms and Software (Panel)"
   speakers:
-    - "Todd Munson"
-    - "Daniel Osei-Kuffuor"
-    - "Vladimir Tomov"
-    - "Sherry Li"
-  start: "Tue Aug 6 4:45 PM"
+    - "Toby Isaac"
+    - "Andrew Myers"
+    - "Mark Stowell"
+    - "Ulrike Yang"
+  start: "Tue Aug 6 4:30 PM"
   length: 45
   vname: "Main-room"
   has_synopsis: true
-  id: 18
+  id: 17
 
-- title: "**Unstructured time**<br>SME selections due, break, informal discussion, continued hands-on"
-  start: "Tue Aug 6 5:30 PM"
-  length: 60
-  id: 19
+- title: "SME Speed Dating (optional) / Unstructured time<br>"
+  start: "Tue Aug 6 5:15 PM"
+  length: 75
+  id: 18
 
 - title: "**Dinner**"
   start: "Tue Aug 6 6:30 PM"
   length: 60
-  id: 20
+  id: 19
 
-- title: "SME Speed Dating<br>OPTIONAL ACTIVITY"
-  start: "Tue Aug 6 7:30 PM"
-  length: 60
-  id: 21
