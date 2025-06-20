@@ -26,6 +26,8 @@ Exascale Computing Project and its achievements.
 ### Structured Meshes (with AMReX)
 [Slides](../files/ATPESC-2024-Track-5-MyersZhang-AMREX.pdf)
 
+[Lesson](../lessons/amrex/)
+
 Block-structured adaptive mesh refinement (AMR) provides a natural framework
 in which to focus computing power on the most critical parts of the problem in
 the most computationally efficient way possible.  AMReX supports the development
@@ -45,6 +47,8 @@ solvers to impose incompressibility on a flow with particles around an obstacle.
 ### Unstructured Meshes (with MFEM/PUMI)
 [Slides](../files/ATPESC-2024-Track-5-TomovShephard-unstructured-mesh-tools.pdf)
 
+[Lesson](../lessons/mfem_convergence/)
+
 Unstructured meshes can yield required levels of accuracy using fewer degrees of
 freedom at the cost of more complex parallel data structures and algorithms. To
 support the ability of application code developers to take advantage of unstructured
@@ -59,6 +63,8 @@ mesh tools developed to support mesh adaptation, load balancing and PIC calculat
 ### Nonlinear Solvers (with PETSc)
 ### Nonlinear Solvers (with PETSc)
 [Slides](../files/ATPESC-2024-Track-5-TobyIsaac-PETSc.pdf)
+
+[Lesson](../lessons/nonlinear_solvers_petsc/)
 
 We will begin with a quick overview of iterative solvers for nonlinear systems,
 and then take a deeper look into Newton-Krylov methods and how to use them via
@@ -77,6 +83,8 @@ run using PETSc's GPU back-ends.
 ### Time Integration (with SUNDIALS)
 ### Time Integration (with SUNDIALS)
 [Slides](../files/ATPESC-2024-Track-5-TimeIntegration.pdf)
+
+[Lesson](../lessons/time_integrators_sundials/)
 
 In this lecture we will discuss the role and impact of high order, adaptive, and
 flexible time integration libraries in solution accuracy and computational
@@ -105,6 +113,8 @@ participants to explore both on-node and multi-node performance.
 ### Iterative Solvers & Algebraic Multigrid (with Trilinos, Belos & MueLu)
 [Slides](../files/ATPESC-2024-Track-5-GlusaHarper-IterativeLinearSolversAndAlgebraicMultigridWithTrilinosBelosMueLu.pdf)
 
+[Lesson](../lessons/krylov_amg_muelu/)
+
 In this session, attendees will learn about linear solvers and preconditioners
 available in the Trilinos project.  We will focus on Krylov solvers such
 as conjugate gradients (CG) and generalized minimum residual (GMRES); simple
@@ -120,6 +130,8 @@ model linear problem.
 ### Krylov Solvers & Algebraic Multigrid (with HYPRE)
 ### Krylov Solvers & Algebraic Multigrid (with HYPRE)
 [Slides](../files/ATPESC-2024-Track-5-Iterative-Solvers-hypre-DOK.pdf)
+
+[Lesson](../lessons/krylov_amg_hypre/)
 
 This session will present the basic concepts of iterative linear solvers with focus on
 Krylov solvers, including the generalized minimum residual method (GMRES),
@@ -138,6 +150,8 @@ from the HYPRE library applied to several test problems on CPUs and GPUs.
 ### Optimization (with TAO)
 [Slides](../files/ATPESC-2024-Track-5-ToddMunson-TAO.pdf)
 
+[Lesson](../lessons/numerical_optimization_tao/)
+
 This lecture will provide an introduction to numerical optimization with a
 theoretical focus on simulation-based problems. We will introduce the user
 interfaces for the Toolkit for Advanced Optimization (TAO) package within
@@ -153,6 +167,8 @@ their effect on the problem solution.
 ### Direct Solvers (with SuperLU/STRUMPACK)
 ### Direct Solvers (with SuperLU/STRUMPACK)
 [Slides](../files/ATPESC-2024-Track-5-Li-Ghysels-DirectSolvers.pdf)
+
+[Lesson](../lessons/superlu_dist/)
 
 In this lecture we discuss several aspects of direct solvers for large
 sparse linear systems. Sparse direct solvers, based on Gaussian
