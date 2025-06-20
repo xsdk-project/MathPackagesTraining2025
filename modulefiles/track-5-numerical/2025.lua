@@ -1,0 +1,7 @@
+load("PrgEnv-gnu")
+load("nvhpc-mixed")
+load("craype-accel-nvidia80")
+load("spack-pe-base")
+load("cmake")
+load("ninja")
+load("cray-libsci")
