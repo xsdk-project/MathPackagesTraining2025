@@ -1,4 +1,4 @@
-family("track-5-numerical")
+family("track_5_numerical")
 load("PrgEnv-gnu")
 load("nvhpc-mixed")
 load("craype-accel-nvidia80")
