@@ -499,8 +499,8 @@ on your local machine, the `PETSC_DIR` variable in the [makefile](makefile) must
 reflect the local PETSc/TAO installation.
 
 ```
-$ make multidim_rosenbrock
-$ mpiexec -n 1 ./multidim_rosenbrock -tao_monitor
+make multidim_rosenbrock
+mpiexec -n 1 ./multidim_rosenbrock -tao_monitor
 ```
 {::options parse_block_html="true" /}
 <div style="border: solid #8B8B8B 2px; padding: 10px;">
