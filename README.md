@@ -67,12 +67,22 @@ More control over running non-interactive jobs is described in [Running jobs on 
 The following module commands have been tested and found to work when building and installing both Trilinos and PETSc/TAO:
 
 ```
-module swap PrgEnv-nvhpc PrgEnv-gnu
-module load nvhpc-mixed craype-accel-nvidia80
 module use /soft/modulefiles
-module load spack-pe-base
-module load cmake ninja
-module load cray-libsci
+module use /eagle/ATPESC2025/usr/modulefiles
+module load track-5-numerical 
+```
+For reference:
+
+```
+polaris-login-01:/eagle/ATPESC2025/usr/modulefiles/track-5-numerical> cat 2025.lua
+family("atpesct_track_5")
+load("PrgEnv-gnu")
+load("nvhpc-mixed")
+load("craype-accel-nvidia80")
+load("spack-pe-base")
+load("cmake")
+load("ninja")
+load("cray-libsci")
 ```
 
 ## CUDA options
