@@ -1,18 +1,6 @@
-PETSC_DIR=/eagle/ATPESC2022/usr/MathPackages/petsc
+PETSC_DIR ?= /eagle/ATPESC2025/usr/MathPackages/petsc
 
-CFLAGS		 =
-FFLAGS		 =
-CPPFLAGS         =
-FPPFLAGS         =
-EXAMPLESC        = multidim_rosenbrock.c
-EXAMPLESF        = 
-EXAMPLESCH       =
-EXAMPLESFH       = 
-LOCDIR		 = 
-MANSEC		 =
-DOCS		 =
-DIRS		 =
-CLEANFILES   = multidim_rosenbrock
+CLEANFILES   = rosenbrock4 rosenbrock4cu
 
 include ${PETSC_DIR}/lib/petsc/conf/variables
 include ${PETSC_DIR}/lib/petsc/conf/rules
