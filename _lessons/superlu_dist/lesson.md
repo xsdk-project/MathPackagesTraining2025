@@ -20,7 +20,6 @@ cd {{site.handson_root}}/superlu_dist
 
 There are two folders:
 ```
-SRC/ : source code
 EXAMPLE/ : example drivers
 
 ```
