@@ -77,7 +77,7 @@ below:
 
 |Figure 1|Figure 2|Figure 3|Figure 4|
 |:---:|:---:|:---:|:---:|
-|[![](advection-diffusion-u0.png)](sundials/advection-diffusion-u0.png)|[![](advection-diffusion-u1000.png)](sundials/advection-diffusion-u1000.png)|[![](advection-diffusion-u2000.png)](sundials/advection-diffusion-u2000.png)|[![](advection-diffusion-u3000.png)](sundials/advection-diffusion-u3000.png)|
+|[![](advection-diffusion-u0.png)](advection-diffusion-u0.png)|[![](advection-diffusion-u1000.png)](advection-diffusion-u1000.png)|[![](advection-diffusion-u2000.png)](advection-diffusion-u2000.png)|[![](advection-diffusion-u3000.png)](advection-diffusion-u3000.png)|
 
 We will investigate this problem in three phases:
 
@@ -264,7 +264,7 @@ stable and accurate to within the specified tolerances!_
 
 The time step sizes taken by the integrator in this run are seen below:
 
-[![Explicit stepsize adaptivity ::](step_size_history_explicit.png)](sundials/step_size_history_explicit.png)
+[![Explicit stepsize adaptivity ::](step_size_history_explicit.png)](step_size_history_explicit.png)
 
 _notice how rapidly the adaptive time-stepper finds the CFL stability limit_.
 Also notice that the adaptivity algorithm periodically attempts to increase the
@@ -392,7 +392,7 @@ Compute the solution error as before,
 
 The corresponding time adaptivity history plot is below:
 
-[![Implicit stepsize adaptivity ::](step_size_history_implicit.png)](sundials/step_size_history_implicit.png)
+[![Implicit stepsize adaptivity ::](step_size_history_implicit.png)](step_size_history_implicit.png)
 
 How does the average step size for this tolerance compare against the average
 step size of `HandsOn1.CUDA.exe` for the same tolerances?
@@ -462,7 +462,7 @@ mpiexec -n 4 ./HandsOn2.CUDA.exe inputs-2 rhs_adv=1 fixed_dt=0
 The corresponding stepsize history plot with this configuration is below, and shows
 similar behavior as we saw with the explicit method above.
 
-[![ImEx stepsize adaptivity ::](step_size_history_imex.png)](sundials/step_size_history_imex.png)
+[![ImEx stepsize adaptivity ::](step_size_history_imex.png)](step_size_history_imex.png)
 
 ----
 
