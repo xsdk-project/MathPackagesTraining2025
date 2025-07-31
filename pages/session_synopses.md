@@ -82,7 +82,7 @@ run using PETSc's GPU back-ends.
 
 ### Time Integration (with SUNDIALS)
 ### Time Integration (with SUNDIALS)
-[Slides](../files/ATPESC-2024-Track-5-TimeIntegration.pdf)
+[Slides](../files/ATPESC-2025-Track-5-TimeIntegration.pdf)
 
 [Lesson](../lessons/time_integrators_sundials/)
 
