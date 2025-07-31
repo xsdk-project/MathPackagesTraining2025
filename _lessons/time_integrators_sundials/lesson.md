@@ -264,7 +264,7 @@ stable and accurate to within the specified tolerances!_
 
 The time step sizes taken by the integrator in this run are seen below:
 
-[![Explicit stepsize adaptivity ::](h_vs_iter-explicit.png)](sundials/h_vs_iter-explicit.png)
+[![Explicit stepsize adaptivity ::](step_size_history_explicit.png)](sundials/step_size_history_explicit.png)
 
 _notice how rapidly the adaptive time-stepper finds the CFL stability limit_.
 Also notice that the adaptivity algorithm periodically attempts to increase the
@@ -272,10 +272,10 @@ time step size to investigate whether this stability limit has changed; however,
 the raw percentage of these failed steps remains rather small.
 
 
-**Note**: *You can generate the above plot by runing the provided Python script `process_ARKStep_diags.py`:*
+**Note**: *You can generate the above plot by runing the provided Python script `plot_log.py`:*
 
 ```bash
-./process_ARKStep_diags.py HandsOn1_diagnostics.txt
+./plot_log.py HandsOn1.log --logy
 ```
 
 *We included it here because it can be difficult to display graphics from the GPU compute nodes on Polaris.*
@@ -392,7 +392,7 @@ Compute the solution error as before,
 
 The corresponding time adaptivity history plot is below:
 
-[![Implicit stepsize adaptivity ::](h_vs_iter-implicit.png)](sundials/h_vs_iter-implicit.png)
+[![Implicit stepsize adaptivity ::](step_size_history_implicit.png)](sundials/step_size_history_implicit.png)
 
 How does the average step size for this tolerance compare against the average
 step size of `HandsOn1.CUDA.exe` for the same tolerances?
@@ -462,7 +462,7 @@ mpiexec -n 4 ./HandsOn2.CUDA.exe inputs-2 rhs_adv=1 fixed_dt=0
 The corresponding stepsize history plot with this configuration is below, and shows
 similar behavior as we saw with the explicit method above.
 
-[![ImEx stepsize adaptivity ::](h_vs_iter-imex.png)](sundials/h_vs_iter-imex.png)
+[![ImEx stepsize adaptivity ::](step_size_history_imex.png)](sundials/step_size_history_imex.png)
 
 ----
 
