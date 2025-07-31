@@ -297,8 +297,8 @@ mpiexec -n 4 ./HandsOn1.CUDA.exe inputs-1 fixed_dt=0 arkode_order=8
 ./amrex_fcompare plt00001/ reference_solution/
 ```
 
-_note the dramatic decrease in overall time steps (462 vs 260), but the
-accompanying increase in total RHS evaluations (2413 vs 3759)._ Although
+_note the dramatic decrease in overall time steps (459 vs 221), but the
+accompanying increase in total RHS evaluations (1847 vs 2940)._ Although
 higher-order methods may indeed utilize larger step sizes (both for accuracy and
 frequently stability), those come at the cost of increased work per step.
 
