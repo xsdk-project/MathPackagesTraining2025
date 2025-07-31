@@ -572,7 +572,7 @@ A good choice of solver and preconditioner will depend significantly on the prob
 
 Instead of generating the linear system on the fly, the executable has the option to load matrix, right-hand side and coordinates information from MatrixMarket files, e.g.,
 ```
-./MueLu_driver_gpu.exe --matrix=poisson-matrix.m --rhs=poisson-rhs.m --coords=poisson-coords.m
+./MueLu_driver_gpu.exe --xml=set3-mg-jacobi.xml --matrix=poisson-matrix.m --rhs=poisson-rhs.m --coords=poisson-coords.m
 ```
 
 ---
