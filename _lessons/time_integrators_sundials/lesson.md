@@ -44,7 +44,7 @@ In this problem, we model the transport of a pollutant that has been released
 into a flow in a two dimensional domain.  We want to determine both where the
 pollutant goes, and when it has diffused sufficiently to be of no further harm.
 
-[![Problem Setup ::](sundials_amrex_setup.png)](sundials/sundials_amrex_setup.png)
+[![Problem Setup ::](sundials_amrex_setup.png)](sundials_amrex_setup.png)
 
 This is an example of a scalar-valued advection-diffusion problem for chemical
 transport. The governing equation is:
