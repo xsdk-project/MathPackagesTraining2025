@@ -283,7 +283,7 @@ permalink: "/presenters/"
 ### Yang Liu
 
 |:---:|:---:|
-|![](https://crd.lbl.gov/assets/Uploads/Yang-Liu-2-square__FillWzE1MCwxNTBd.jpg){:width="200px"}|Key Expertise: [ButterflyPACK][butterflypack]<br><br>Affiliation: [LBL][lbl]<br><br>Contact: [email][yl-m]|
+|![](https://crd.lbl.gov/assets/Uploads/Yang-Liu-2-square__FillWzE1MCwxNTBd.jpg){:width="200px"}|Key Expertise: [ButterflyPACK][butterflypack], [SuperLU][superlu], [STRUMPACK][strumpack]<br><br>Affiliation: [LBL][lbl]<br><br>Contact: [email][yl-m]|
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
