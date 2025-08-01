@@ -6,6 +6,8 @@ _site
 .jekyll-metadata
 *-cache/
 *.dSYM/*
+.Gemfile
+Gemfile.lock
 
 ### NPM ###
 /node_modules/

@@ -76,7 +76,7 @@ permalink: "/presenters/"
 ### Toby Isaac
 
 |:---:|:---:|
-|![](https://gitlab.com/uploads/-/system/user/avatar/1230244/avatar.png){:width="200px"}|Key Expertise: [PETSc/TAO][petsc]<br><br>Affiliation: [ANL][anl]/[MCS][anl-mcs]<br><br>Contact: [email][ti-m]<br><br>GitLab: [GitLab][ti-g]|
+|![](https://gitlab.com/uploads/-/system/user/avatar/1230244/avatar.png){:width="200px"}|Key Expertise: [PETSc/TAO][petsc]<br><br>Affiliation: [Nvidia][nvidia]<br><br>Contact: [email][ti-m]<br><br>GitLab: [GitLab][ti-g]|
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -270,6 +270,24 @@ permalink: "/presenters/"
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+### Mark Stowell
+### Mark Stowell
+
+|:---:|:---:|
+|![](https://people.llnl.gov/sites/default/files/styles/medium/public/img/stowell1.png?itok=ioaLHAIT){:width="200px"}|Key Expertise: [MFEM][mfem]<br><br>Affiliation: [LLNL][llnl]<br><br>Contact: [email][mst-m]|
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Yang Liu
+### Yang Liu
+
+|:---:|:---:|
+|![](https://crd.lbl.gov/assets/Uploads/Yang-Liu-2-square__FillWzE1MCwxNTBd.jpg){:width="200px"}|Key Expertise: [ButterflyPACK][butterflypack]<br><br>Affiliation: [LBL][lbl]<br><br>Contact: [email][yl-m]|
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 [amrex]: https://amrex-codes.github.io
 [xsdk]: https://xsdk.info
 [petsc]: https://petsc.org
@@ -295,6 +313,7 @@ permalink: "/presenters/"
 [pumi]: https://www.scorec.rpi.edu/pumi/
 [pumipic]: https://github.com/scorec/pumi-pic
 [omegah]: https://github.com/scorec/omega_h
+[butterflypack]: https://liuyangzhuan.github.io/ButterflyPACK/
 
 [anl]: https://www.anl.gov
 [anl-mcs]: https://www.anl.gov/mcs
@@ -316,6 +335,7 @@ permalink: "/presenters/"
 [kaust-cemse]: https://cemse.kaust.edu.sa
 [rpi]: https://www.rpi.edu
 [rpi-scorec]: https://www.scorec.rpi.edu
+[nvidia]: https://www.nvidia.com
 
 [lcm-m]: <mailto:curfman@mcs.anl.gov>
 [mcm-m]: <mailto:miller86@llnl.gov>
@@ -324,7 +344,7 @@ permalink: "/presenters/"
 [aa-m]: <mailto:ASAlmgren@lbl.gov>
 [am-m]: <mailto:atmyers@lbl.gov>
 [tm-m]: <mailto:tmunson@mcs.anl.gov>
-[ti-m]: <mailto:tisaac@anl.gov>
+[ti-m]: <mailto:toby.isaac@gmail.com>
 [cg-m]: <mailto:caglusa@sandia.gov>
 [jh-m]: <mailto:jhu@sandia.gov>
 [bs-m]: <mailto:bsmith@mcs.anl.gov>
@@ -346,6 +366,8 @@ permalink: "/presenters/"
 [vt-m]: <mailto:tomov2@llnl.gov>
 [wz-m]: <mailto:WeiqunZhang@lbl.gov>
 [do-m]: <mailto:oseikuffuor1@llnl.gov>
+[mst-m]: mailto:stowell1@llnl.gov>
+[yl-m]: mailto:liuyangzhuan@lbl.gov
 
 [lcm-g]: https://github.com/curfman
 [mcm-g]: https://github.com/markcmiller86
