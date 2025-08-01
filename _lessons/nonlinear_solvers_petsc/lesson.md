@@ -689,12 +689,12 @@ unset PETSC_OPTIONS
 
 We will run a large version (`-dm_refine 9`) of the driven cavity problem, using multigrid with GPU and SIMD-friendly Chebyshev-Jacobi smoothing (`-mg_levels_pc_type jacobi`), and collect a breakdown by multigrid level (`-pc_mg_log`), logging performance in a text file.
 
-We get the best CPU-only performance on polaris using 8 MPI ranks:
+We get the best CPU-only performance on Polaris using 16 MPI ranks:
 ```
-mpiexec -n 8 ./ex19 -da_refine 9 -pc_type mg -mg_levels_pc_type jacobi -pc_mg_log -log_view :log_mg_cpu_n8.txt
+mpiexec -n 16 ./ex19 -da_refine 9 -pc_type mg -mg_levels_pc_type jacobi -pc_mg_log -log_view :log_mg_cpu_n16.txt
 ```
 
-Running on GPUs, we get best performance using only one rank per GPU:
+Running on GPUs, we get best performance using only one rank per GPU (we could likely use more if running NVIDIA MPS, but doing so on Polaris is non-trivial):
 ```
 mpiexec -n 4 ./ex19 -da_refine 9 -pc_type mg -mg_levels_pc_type jacobi -pc_mg_log -dm_vec_type cuda -dm_mat_type aijcusparse -log_view_gpu_time -log_view :log_mg_gpu_n4.txt -use_gpu_aware_mpi 0
 ```
@@ -715,16 +715,16 @@ are included in the `SNESSolve` time.
 It can be difficult to tell from the text output how the logging events are nested.
 So let's repeat the same runs, but this time generate stack trace files that can be used to generate flame graphs.
 
-On 8 MPI ranks for CPU-only:
+On 16 MPI ranks for CPU-only:
 
 ```
-mpiexec -n 8 ./ex19 -da_refine 9 -pc_type mg -mg_levels_pc_type jacobi -pc_mg_log -log_view :log_mg_cpu_n8.stack:ascii_flamegraph
+mpiexec -n 16 ./ex19 -da_refine 9 -pc_type mg -mg_levels_pc_type jacobi -pc_mg_log -log_view :log_mg_cpu_n16.stack:ascii_flamegraph
 ```
 
-And on 1 MPI rank for the GPU case:
+And on 4 MPI ranks for the GPU case:
 
 ```
-mpiexec -n 1 ./ex19 -da_refine 9 -pc_type mg -mg_levels_pc_type jacobi -pc_mg_log -dm_vec_type cuda -dm_mat_type aijcusparse -log_view_gpu_time -log_view :log_mg_gpu_n1.stack:ascii_flamegraph -use_gpu_aware_mpi 0
+mpiexec -n 4 ./ex19 -da_refine 9 -pc_type mg -mg_levels_pc_type jacobi -pc_mg_log -dm_vec_type cuda -dm_mat_type aijcusparse -log_view_gpu_time -log_view :log_mg_gpu_n4.stack:ascii_flamegraph -use_gpu_aware_mpi 0
 ```
 
 Download the .stack files to your local machine, and then use [SpeedScope.app](https://speedscope.app) to
@@ -757,7 +757,7 @@ If you'd like to try another GPU-back end, you can try PETSc's Kokkos/Kokkos Ker
 Run with `-dm_mat_type aijkokkos -dm_vec_type kokkos`:
 
 ```
-mpirun -n 1 ./ex19 -da_refine 9 -pc_type mg -mg_levels_pc_type jacobi -pc_mg_log -dm_vec_type kokkos -dm_mat_type aijkokkos -log_view_gpu_time -log_view :log_mg_kokkos_n1.txt -use_gpu_aware_mpi 0
+mpirun -n 4 ./ex19 -da_refine 9 -pc_type mg -mg_levels_pc_type jacobi -pc_mg_log -dm_vec_type kokkos -dm_mat_type aijkokkos -log_view_gpu_time -log_view :[log_mg_kokkos_n4.txt](log_mg_kokkos_n4.txt) -use_gpu_aware_mpi 0
 ```
 
 #### Experimenting with different multigrid cycle types
