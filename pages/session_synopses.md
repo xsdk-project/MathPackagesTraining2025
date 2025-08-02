@@ -45,7 +45,7 @@ solvers to impose incompressibility on a flow with particles around an obstacle.
 
 ### Unstructured Meshes (with MFEM/PUMI)
 ### Unstructured Meshes (with MFEM/PUMI)
-[Slides](../files/ATPESC-2025-Track-5-Shephard-unstructured-mesh-tools.pptx)
+[Slides](../files/ATPESC-2025-Track-5-Shephard-Stowell-unstructured-mesh-tools.pdf)
 
 [Lesson](../lessons/mfem_convergence/)
 
