@@ -11,7 +11,7 @@ permalink: "/session_synopses/"
 
 ### Introduction to Numerical Software
 ### Introduction to Numerical Software
-[Slides](../files/ATPESC-2024-Track-5-Talk-1-Yang-IntroToNumericalSoftware.pdf)
+[Slides](../files/ATPESC-2025-Track-5-Talk-1-Yang-IntroToNumericalSoftware.pdf)
 
 In the first hour of our day with you we will give a brief introduction
 to our agenda, logistics and a very brief overview of the various numerical packages
@@ -24,7 +24,7 @@ Exascale Computing Project and its achievements.
 
 ### Structured Meshes (with AMReX)
 ### Structured Meshes (with AMReX)
-[Slides](../files/ATPESC-2024-Track-5-MyersZhang-AMREX.pdf)
+[Slides](../files/ATPESC-2025-Track-5-AndrewMyersWeiqunZhang-AMReX.pdf)
 
 [Lesson](../lessons/amrex/)
 
@@ -62,7 +62,7 @@ mesh tools developed to support mesh adaptation, load balancing and PIC calculat
 
 ### Nonlinear Solvers (with PETSc)
 ### Nonlinear Solvers (with PETSc)
-[Slides](../files/ATPESC-2024-Track-5-TobyIsaac-PETSc.pdf)
+[Slides](../files/ATPESC-2025-Track-5-RichardMills-PETSc.pdf)
 
 [Lesson](../lessons/nonlinear_solvers_petsc/)
 
@@ -111,7 +111,7 @@ participants to explore both on-node and multi-node performance.
 
 ### Iterative Solvers & Algebraic Multigrid (with Trilinos, Belos & MueLu)
 ### Iterative Solvers & Algebraic Multigrid (with Trilinos, Belos & MueLu)
-[Slides](../files/ATPESC-2024-Track-5-GlusaHarper-IterativeLinearSolversAndAlgebraicMultigridWithTrilinosBelosMueLu.pdf)
+[Slides](../files/ATPESC-2025-Track-5-GlusaHarper-IterativeLinearSolversAndAlgebraicMultigridWithTrilinosBelosMueLu.pdf)
 
 [Lesson](../lessons/krylov_amg_muelu/)
 
@@ -148,7 +148,7 @@ from the HYPRE library applied to several test problems on CPUs and GPUs.
 
 ### Optimization (with TAO)
 ### Optimization (with TAO)
-[Slides](../files/ATPESC-2024-Track-5-ToddMunson-TAO.pdf)
+[Slides](../files/ATPESC-2025-Track-5-TobyIsaac-TAO.pdf)
 
 [Lesson](../lessons/numerical_optimization_tao/)
 
@@ -193,22 +193,6 @@ approximate sparse LU factorization.
 SuperLU.
 * Session 2 (11:45am-12:15pm) has a hands-on demo session with STRUMPACK.
 * Session 3 (12:15pm-12:30pm) includes a Q&A session (no hands-on).
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-### Working with Numerical Packages in Practice
-### Working with Numerical Packages in Practice
-[Slides](../files/ATPESC-2024-Track-5-Talk-9-AnnAlmgren-wrapup.pdf)
-
-Developing high-quality, large-scale scientific computing applications in science and
-engineering involves expertise in many areas. Typically, no one person or group has
-all of the essential expertise and skills. Numerical software libraries and packages
-are a key way we share capability and know-how. Learning to leverage numerical
-packages to address new scientific computing challenges is part of becoming a member of
-the scientific computing community. In this wrap-up session of the day, we
-briefly discuss key trade-offs in using numerical packages in practice.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
