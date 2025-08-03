@@ -204,9 +204,9 @@ This will be a 45 minute panel question and answer period for ATPESC learners to
 questions about working with numerical package and the community of numerical package
 developers. If you have question(s) you know you would like to ask, we encourage attendees
 to submit questions *ahead* of time via the
-[submission form](https://forms.gle/SmVroQBAq145g4F79).
+[submission form](https://forms.gle/wizhpSgaTJ9C2Z6T8).
 However, we expect there will also be ample opportunity to indicate your desire to ask
-questions via the main (Amphitheater) [slack channel](https://app.slack.com/client/TMW2FLNCQ/C029YJ95ULQ),
+questions via the main (Amphitheater) [slack channel](https://alcf-workshops.slack.com/archives/C0977BUSQ72),
 and then you may be called upon to un-mute and ask your question.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -219,7 +219,7 @@ This is an opportunity for you to meet and talk (1-on-1 or sometimes 2-on-1) wit
 (SMEs) about their work and numerical packages they support. Each *speed date* will be a 20 minute
 meeting. Attendees may select up to
 3 SMEs they would like to meet using
-[this form](https://docs.google.com/document/d/1-uCcBU5zOBmVkGOqOT2dg4eXDtLl6TA3wfHfBgcRfi0/edit?usp=sharing)
+[this form](https://docs.google.com/document/d/18pjA_6aAVI6lr-F5XsqLe6wbu7gM0adW6zwoIGmmEys/edit?usp=sharing)
 Requests will be accommodated on a first-come, first-served basis until all available slots are taken.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
