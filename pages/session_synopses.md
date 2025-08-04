@@ -129,7 +129,7 @@ model linear problem.
 
 ### Krylov Solvers & Algebraic Multigrid (with HYPRE)
 ### Krylov Solvers & Algebraic Multigrid (with HYPRE)
-[Slides](../files/ATPESC-2024-Track-5-Iterative-Solvers-hypre-DOK.pdf)
+[Slides](../files/ATPESC-2025-Track-5-Iterative-Solvers-hypre-DOK.pdf)
 
 [Lesson](../lessons/krylov_amg_hypre/)
 
