@@ -166,7 +166,7 @@ their effect on the problem solution.
 
 ### Direct Solvers (with SuperLU/STRUMPACK)
 ### Direct Solvers (with SuperLU/STRUMPACK)
-[Slides](../files/ATPESC-2024-Track-5-Li-Ghysels-DirectSolvers.pdf)
+[Slides](../files/ATPESC-2025-Track-5-Li-Liu.pdf)
 
 [Lesson](../lessons/superlu_dist/)
 
